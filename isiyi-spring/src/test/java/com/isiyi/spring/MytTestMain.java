@@ -5,9 +5,7 @@ import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.util.Assert;
 
-import java.util.logging.XMLFormatter;
 
 /**
  * 类描述

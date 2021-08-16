@@ -50,5 +50,6 @@
         <module>isiyi-flink</module>
         <module>isiyi-shells</module>
         <module>isiyi-canal</module>
+        <module>isiyi-kafka</module>
     </modules>
 </project>
