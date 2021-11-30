@@ -1,4 +1,4 @@
-package com.isiyi.java.flink.domain;
+package com.isiyi.flink.domain;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.util.Collector;

@@ -1,7 +1,7 @@
-package com.isiyi.java.flink.ts;
+package com.isiyi.flink.ts;
 
-import com.isiyi.java.flink.dsr.CustomNonParallelSourceFunction;
-import com.isiyi.java.flink.dsr.CustomParallelSourceFunction;
+import com.isiyi.flink.dsr.CustomNonParallelSourceFunction;
+import com.isiyi.flink.dsr.CustomParallelSourceFunction;
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.streaming.api.datastream.DataStream;

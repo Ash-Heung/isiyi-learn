@@ -1,6 +1,5 @@
-package com.isiyi.java.flink.ts;
+package com.isiyi.flink.ts;
 
-import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.junit.Test;
 

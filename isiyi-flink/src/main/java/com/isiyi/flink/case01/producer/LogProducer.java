@@ -1,7 +1,6 @@
-package com.isiyi.java.flink.case01.producer;
+package com.isiyi.flink.case01.producer;
 
-import com.isiyi.java.flink.case01.config.KafkaConfig;
-import org.apache.calcite.sql.type.CursorReturnTypeInference;
+import com.isiyi.flink.case01.config.KafkaConfig;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 

@@ -1,4 +1,4 @@
-package com.isiyi.java.flink.ts;
+package com.isiyi.flink.ts;
 
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.functions.MapFunction;

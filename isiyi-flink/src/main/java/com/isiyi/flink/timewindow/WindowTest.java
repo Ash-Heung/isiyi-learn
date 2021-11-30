@@ -1,4 +1,4 @@
-package com.isiyi.java.flink.timewindow;
+package com.isiyi.flink.timewindow;
 
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

@@ -1,6 +1,6 @@
-package com.isiyi.java.flink.excutor;
+package com.isiyi.flink.excutor;
 
-import com.isiyi.java.flink.domain.WordCountDomain;
+import com.isiyi.flink.domain.WordCountDomain;
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.java.utils.ParameterTool;

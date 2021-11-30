@@ -1,4 +1,4 @@
-package com.isiyi.java.flink.ds;
+package com.isiyi.flink.ds;
 
 import org.apache.flink.api.java.ExecutionEnvironment;
 

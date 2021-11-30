@@ -1,4 +1,4 @@
-package com.isiyi.java.flink.domain;
+package com.isiyi.flink.domain;
 
 /**
  * 类描述

@@ -1,6 +1,6 @@
-package com.isiyi.java.flink.excutor;
+package com.isiyi.flink.excutor;
 
-import com.isiyi.java.flink.domain.Tokenizer;
+import com.isiyi.flink.domain.Tokenizer;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.DataSource;

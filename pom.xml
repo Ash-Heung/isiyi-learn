@@ -51,5 +51,6 @@
         <module>isiyi-shells</module>
         <module>isiyi-canal</module>
         <module>isiyi-kafka</module>
+        <module>isiyi-impala</module>
     </modules>
 </project>

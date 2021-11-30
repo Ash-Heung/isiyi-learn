@@ -1,4 +1,4 @@
-package com.isiyi.java.flink.case01.config;
+package com.isiyi.flink.case01.config;
 
 /**
  * 类描述

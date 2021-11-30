@@ -1,6 +1,6 @@
-package com.isiyi.java.flink.case01;
+package com.isiyi.flink.case01;
 
-import com.isiyi.java.flink.case01.config.KafkaConfig;
+import com.isiyi.flink.case01.config.KafkaConfig;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

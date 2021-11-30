@@ -1,4 +1,4 @@
-package com.isiyi.java.flink.dsr;
+package com.isiyi.flink.dsr;
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 

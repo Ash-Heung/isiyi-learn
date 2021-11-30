@@ -1,7 +1,7 @@
-package com.isiyi.java.flink.dsr;
+package com.isiyi.flink.dsr;
 
 import org.apache.flink.streaming.api.functions.source.ParallelSourceFunction;
-import org.apache.flink.streaming.api.functions.source.RichSourceFunction;
+import org.apache.flink.streaming.api.functions.source.SourceFunction;
 
 /**
  * 类描述
@@ -12,7 +12,7 @@ import org.apache.flink.streaming.api.functions.source.RichSourceFunction;
  * @author: 向鹏飞
  * @since: 2021/6/21
  */
-public class CustomRichParallelSourceFunction extends RichSourceFunction<Long> {
+public class CustomParallelSourceFunction implements ParallelSourceFunction<Long> {
     private long COUNT = 1L;
     boolean RUNNING = true;
     @Override
