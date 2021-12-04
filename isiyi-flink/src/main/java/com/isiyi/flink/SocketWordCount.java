@@ -23,6 +23,8 @@ public class SocketWordCount {
     public static void main(String[] args) throws Exception{
         StreamExecutionEnvironment environment = StreamExecutionEnvironment.createLocalEnvironmentWithWebUI(new Configuration());
         DataStreamSource<String> streamSource = environment.socketTextStream("localhost", 6666);
+        // 重试策略
+        //environment.setRestartStrategy();
 
         // 算子操作
         SingleOutputStreamOperator<String> streamOperator = streamSource.flatMap((String input, Collector<String> out) -> {
