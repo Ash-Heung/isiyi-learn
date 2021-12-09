@@ -36,4 +36,18 @@ public class TestObjs {
         list.add("2");
     }
 
+    @Test
+    public void testShard(){
+        getCustomerSharding("9000000028");
+    }
+
+    public static void getCustomerSharding(String value) {
+        //String value = "9000000021";
+        Long delivery = Long.parseLong(value) % (4 * 8);
+        String suffix = delivery.toString();
+        if (delivery < 10) {
+            suffix = "0" + delivery.toString();
+        }
+        System.out.println(suffix);
+    }
 }
