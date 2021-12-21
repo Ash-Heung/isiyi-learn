@@ -76,6 +76,11 @@
         <!-- flink的scala的api -->
         <dependency>
             <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-base</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
             <artifactId>flink-scala_${scala.version}</artifactId>
             <version>${flink.version}</version>
             <scope>${project.build.scope}</scope>

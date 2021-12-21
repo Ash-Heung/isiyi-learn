@@ -15,6 +15,7 @@ import java.util.Properties;
  * @since: 2021/12/19
  */
 public class MyKafkaConsumer extends FlinkKafkaConsumer {
+
     public MyKafkaConsumer(String topic, DeserializationSchema valueDeserializer, Properties props) {
         super(topic, valueDeserializer, props);
     }
