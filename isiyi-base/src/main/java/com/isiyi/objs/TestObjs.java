@@ -39,7 +39,7 @@ public class TestObjs {
 
     @Test
     public void testShard(){
-        getCustomerSharding("9000000028");
+        getCustomerSharding("1000349418");
     }
 
     public static void getCustomerSharding(String value) {
